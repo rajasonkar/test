@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.354156">
+<testcase classname="Test Background Feature" name="Search a product and add the first product to the User basket" time="0.347736">
+<system-out><![CDATA[Given I navigate to the login page..........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given User search for Lenovo Laptop.........................................passed
+When Add the first laptop that appears in the search result to the basket...passed
+Then User basket should display with added item.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Background Feature" name="Navigate to a product and add the same to the User basket" time="0.002369">
+<system-out><![CDATA[Given I navigate to the login page..........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given User navigate for Lenovo Laptop.......................................passed
+When Add the laptop to the basket...........................................passed
+Then User basket should display with added item.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Order Hooks" name="First scenario to test Order Hooks functionality" time="0.002327">
+<system-out><![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Order Hooks" name="Second scenario to test Order Hooks functionality" time="0.001724">
+<system-out><![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

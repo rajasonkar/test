@@ -1,0 +1,528 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 345128308,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "BackGround.i_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263076,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I submit username and password",
+            "match": {
+              "location": "BackGround.i_submit_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272798,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be logged in",
+            "match": {
+              "location": "BackGround.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 559642,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 310614,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 366252,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Search a product and add the first product to the User basket",
+        "description": "",
+        "id": "test-background-feature;search-a-product-and-add-the-first-product-to-the-user-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 104798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 121546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 116682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 275502,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User search for Lenovo Laptop",
+            "match": {
+              "location": "BackGround.user_searched_for_Lenovo_Laptop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Add the first laptop that appears in the search result to the basket",
+            "match": {
+              "location": "BackGround.add_the_first_laptop_that_appears_in_the_search_result_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106418,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User basket should display with added item",
+            "match": {
+              "location": "BackGround.user_basket_should_display_with_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 158816,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "BackGround.i_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90212,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I submit username and password",
+            "match": {
+              "location": "BackGround.i_submit_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81030,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be logged in",
+            "match": {
+              "location": "BackGround.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 317096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122084,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 137208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Navigate to a product and add the same to the User basket",
+        "description": "",
+        "id": "test-background-feature;navigate-to-a-product-and-add-the-same-to-the-user-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 343024,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 151254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 445660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104258,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigate for Lenovo Laptop",
+            "match": {
+              "location": "BackGround.user_navigate_for_Lenovo_Laptop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 312774,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Add the laptop to the basket",
+            "match": {
+              "location": "BackGround.add_the_laptop_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105338,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User basket should display with added item",
+            "match": {
+              "location": "BackGround.user_basket_should_display_with_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Background Feature",
+    "description": "Description: The purpose of this feature is to test the Background keyword",
+    "id": "test-background-feature",
+    "keyword": "Feature",
+    "uri": "F:/workspace/cucuberTest/Feature/TestBackGround.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 98316,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 214458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 214998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "First scenario to test Order Hooks functionality",
+        "description": "",
+        "id": "test-order-hooks;first-scenario-to-test-order-hooks-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 220400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 225260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 759514,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210136,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "this is the first step",
+            "match": {
+              "location": "TaggedHooks.This_Is_The_First_Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98316,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is the second step",
+            "match": {
+              "location": "TaggedHooks.This_Is_The_Second_Step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 285224,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "this is the third step",
+            "match": {
+              "location": "TaggedHooks.This_Is_The_Third_Step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 171780,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 104798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 152336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Second scenario to test Order Hooks functionality",
+        "description": "",
+        "id": "test-order-hooks;second-scenario-to-test-order-hooks-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 75088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 209056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 540194,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderHooks.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293324,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "this is the first step",
+            "match": {
+              "location": "TaggedHooks.This_Is_The_First_Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93452,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "this is the second step",
+            "match": {
+              "location": "TaggedHooks.This_Is_The_Second_Step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83730,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "this is the third step",
+            "match": {
+              "location": "TaggedHooks.This_Is_The_Third_Step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Order Hooks",
+    "description": "",
+    "id": "test-order-hooks",
+    "keyword": "Feature",
+    "uri": "F:/workspace/cucuberTest/Feature/TestOrderHooks.feature"
+  }
+]
